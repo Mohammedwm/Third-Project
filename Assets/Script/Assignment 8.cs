@@ -26,7 +26,7 @@ public class ass : MonoBehaviour
         string sentence = "";
         while (counter < 7)
         {
-            sentence = sentence+" "+ words[Random.Range(1,8)];
+            sentence = sentence+" "+ words[Random.Range(0,words.Length)];
             counter++;
         }
         Debug.Log(sentence);
