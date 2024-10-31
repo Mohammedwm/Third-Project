@@ -10,7 +10,7 @@ public class test : MonoBehaviour
         int number = 5;
         for (int i = 1; i <= 10; i++)
         {
-            Debug.Log(number+" x "+i+" = "+number*i);
+            Debug.Log(number+" x "+i+" = "+Multiply(number,i));
         }
         
     }
